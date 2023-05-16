@@ -58,7 +58,7 @@
                         bindings
                                 = <&macro_wait_time 3000>
                                 , <&macro_tap &bootloader>;  
-                }
+                };
         };
 
         keymap {
