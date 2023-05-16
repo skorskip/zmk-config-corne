@@ -16,7 +16,7 @@
                         compatible = "zmk,behavior-macro";
                         #binding-cells = <0>;
                         bindings
-                                = <&macro_tap &kp LCTRL &kp RALT &kp LGUI &kp RIGHT>;
+                                = <&macro_press &kp LCTRL &kp RALT &kp LGUI &kp RIGHT>;
                 };
 
                 scrn_lft: scrn_lft {
@@ -24,7 +24,7 @@
                         compatible = "zmk,behavior-macro";
                         #binding-cells = <0>;
                         bindings
-                                = <&macro_tap &kp LCTRL &kp RALT &kp LGUI &kp LEFT>;
+                                = <&macro_press &kp LCTRL &kp RALT &kp LGUI &kp LEFT>;
                 };
 
                 scrn_up: scrn_up {
@@ -32,7 +32,7 @@
                         compatible = "zmk,behavior-macro";
                         #binding-cells = <0>;
                         bindings
-                                = <&macro_tap &kp LCTRL &kp RALT &kp LGUI &kp UP>;
+                                = <&macro_press &kp LCTRL &kp RALT &kp LGUI &kp UP>;
                 };
 
                 scrn_dwn: scrn_dwn {
@@ -40,7 +40,7 @@
                         compatible = "zmk,behavior-macro";
                         #binding-cells = <0>;
                         bindings
-                                = <&macro_tap &kp LCTRL &kp RALT &kp LGUI &kp DOWN>;
+                                = <&macro_press &kp LCTRL &kp RALT &kp LGUI &kp DOWN>;
                 };
 
                 scrn_full: scrn_full {
@@ -48,7 +48,7 @@
                         compatible = "zmk,behavior-macro";
                         #binding-cells = <0>;
                         bindings
-                                = <&macro_tap &kp LCTRL &kp RALT &kp LGUI &kp M>;
+                                = <&macro_press &kp LCTRL &kp RALT &kp LGUI &kp M>;
                 };
 
                 boot_load: boot_load {
