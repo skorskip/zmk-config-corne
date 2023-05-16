@@ -77,7 +77,7 @@
                         bindings = <
    &kp GRAVE &kp AMPS &kp ASTRK &kp LPAR  &kp RPAR &trans    &scrn_lft &scrn_rgt &scrn_up &scrn_dwn &scrn_full &kp BSPC
    &kp TILDE &kp DLLR &kp PRCNT &kp CARET &trans   &trans    &kp MINUS &kp EQUAL &kp LBKT &kp RBKT  &kp PIPE   &trans
-   &kp LCTRL &KP EXCL &kp AT    &kp HASH  &trans   &trans    &kp UNDER &kp PLUS  &kp LBRC &kp RBRC  &kp BSLH   &RALT
+   &kp LCTRL &kp EXCL &kp AT    &kp HASH  &trans   &trans    &kp UNDER &kp PLUS  &kp LBRC &kp RBRC  &kp BSLH   &kp RALT
                                 &kp LGUI  &trans   &kp RET   &kp SPACE &trans    &kp RSHFT
                         >;
                 };
